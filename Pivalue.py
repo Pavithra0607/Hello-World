@@ -1,4 +1,6 @@
 '''
+Author: Pavithra
+Created on 26th Dec 2018
 Name: Pivalue.py
 Purpose: To display pi value upto n digits entered by user
 input: An integer upto 50
