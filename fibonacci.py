@@ -8,7 +8,7 @@ input: An integer number
 # define a generator to generate n fibonacci numbers
 def gen_fib(n):
     a,b = 0,1
-    for i in range(n):
+    for _ in range(n):
         yield a
         a,b = b,a+b
 
