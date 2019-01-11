@@ -15,5 +15,5 @@ while True:
             print("Number till 50 is only allowed!")
             continue
         else:
-            print("Pi value upto {} digit is {:.{}f}".format(number_of_places,pi,number_of_places))
+            print("Pi value upto {n} digit is {p:.{n}f}".format(n=number_of_places,p=pi))
             break
