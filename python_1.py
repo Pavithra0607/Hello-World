@@ -1,4 +1,4 @@
-import os
+import os;2
 print('hello')
 one='spam eggs '
 #printing a word which has '
@@ -14,4 +14,6 @@ print (concat[1])
 print (concat[-1])
 #lists now
 squares = [1, 4, 9, 16, 25]
-print(squares)
+print(squares+squares)
+print(squares[0])
+print(squares[-3:-1])
